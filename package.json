@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "echo_bot.js",
 	"scripts": {
-		"start-bot": "nodemon ./echo_bot.js"
+		"start-bot": "nodemon ./calculate.js"
 	},
 	"keywords": [],
 	"author": "",
