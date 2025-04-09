@@ -115,3 +115,23 @@ npm i nodemon
 npm run start-bot 
 npm i dotenv 
 ```
+
+## как срезать последний коммит
+когда поняла, что последний коммит неправильный и уже сделан git commit и git push:
+```
+git reset --hard HEAD~1
+```
+Указатель HEAD сейчас на коммите 3d31384 add calculate.js
+git push --force origin main
+```
+Всего 0 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
+To https://github.com/KseniaRazheva/lordofcaloriesbot.git
+ + 90b95ef...3d31384 main -> main (forced update)
+```
+git status
+```
+Текущая ветка: main
+Эта ветка соответствует «origin/main».
+нечего коммитить, нет изменений в рабочем каталоге
+смотрю на гитхабе, а там последние изменения 3d31384
+
